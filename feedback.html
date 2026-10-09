@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rehema and the Lost Temple | Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rehema and the Lost Temple</h1>
+        <p>An adventure inspired by family, heritage, and perseverance.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="story.html">Story</a></li>
+<li><a href="feedback.html" aria-current="page">Feedback</a></li>
+            <li><a href="gameplay.html">Gameplay</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="play.html">Play &amp; Download</a></li>
+            <li><a href="development.html">Development</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+   <main>
+    <section>
+        <h2>Share Your Feedback</h2>
+        <p>
+            Have you tried Rehema and the Lost Temple?
+            Tell me what you enjoyed and what could be improved.
+        </p>
+
+        <p id="form-status">
+            This form is being set up and cannot send feedback yet.
+        </p>
+
+        <form>
+            <label for="player-name">Name or nickname (optional)</label>
+            <input type="text" id="player-name" name="name"
+                   maxlength="80">
+
+            <label for="feedback-topic">Feedback topic</label>
+            <select id="feedback-topic" name="topic">
+                <option value="general">General feedback</option>
+                <option value="controls">Controls and jumping</option>
+                <option value="levels">Levels and environments</option>
+                <option value="bug">Report a problem</option>
+            </select>
+
+            <label for="player-message">Your feedback (required)</label>
+            <textarea id="player-message" name="message"
+                      rows="6" maxlength="3000" required></textarea>
+
+            <p>
+                Please do not include passwords or other private
+                information in your message.
+            </p>
+
+            <button type="submit" disabled
+                    aria-describedby="form-status">
+                Send Feedback — Coming Soon
+            </button>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 Clement Wisse. Rehema and the Lost Temple.</p>
+        <p>Game available for desktop browser and PC play.</p>
+    </footer>
+</body>
+</html>
