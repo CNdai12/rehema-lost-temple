@@ -53,16 +53,12 @@
             <textarea id="player-message" name="message"
                       rows="6" maxlength="3000" required></textarea>
 
-            <p>
-                Please do not include passwords or other private
-                information in your message.
-            </p>
-
-            <button type="submit" disabled
-                    aria-describedby="form-status">
-                Send Feedback — Coming Soon
-            </button>
-        </form>
+        <p id="form-status">
+    Your feedback will be sent privately to the developer
+    through Formspree.
+</p>
+<button type="submit">Send Feedback</button>
+        <form action="https://formspree.io/f/xgaokbdl" method="POST"></form>
     </section>
 </main>
 
